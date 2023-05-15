@@ -1,0 +1,22 @@
+{
+    "name": "tnaf-15-05",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel src/index.html"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/p5": "^1.6.2",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "parcel": "^2.8.3",
+        "prettier": "^2.8.8"
+    },
+    "dependencies": {
+        "p5": "^1.6.0"
+    }
+}
