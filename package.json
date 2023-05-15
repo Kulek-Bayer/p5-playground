@@ -2,19 +2,24 @@
     "name": "tnaf-15-05",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "src/index.html",
     "scripts": {
-        "start": "parcel src/index.html"
+        "start": "parcel src/index.html",
+        "format": "prettier src/ --check",
+        "format:fix": "prettier src/ --write",
+        "lint": "eslint src/",
+        "lint:fix": "eslint src/ --fix"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@types/p5": "^1.6.2",
+        "parcel": "^2.8.3",
+        "eslint": "^8.40.0",
+        "prettier": "^2.8.8",
         "eslint-config-prettier": "^8.8.0",
         "eslint-plugin-prettier": "^4.2.1",
-        "parcel": "^2.8.3",
-        "prettier": "^2.8.8"
+        "@types/p5": "^1.6.2"
     },
     "dependencies": {
         "p5": "^1.6.0"
